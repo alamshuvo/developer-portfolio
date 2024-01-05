@@ -10,7 +10,7 @@
     color: #FD6E0A;
 }
 .container{
-    /* margin: 70%; */
+
 }
 .btn-primary{
     background-color: #FD6E0A;
@@ -24,9 +24,23 @@
     border: 0;
 
 }
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+   font-size: 18px;
+    font-weight: 400;
+
+}
 /* header area css */
 header{
     background: #FFF8F3;
+    
 }
 /* nav var area css */
 nav span{
@@ -69,9 +83,10 @@ nav span{
  .marry-details{
     display: flex;
     justify-content: space-between;
-  
     align-items: center;
     padding: 30px 30px 0px 150px;
+    /* margin:0 200px ; */
+
 
 }
 .marry-img{
@@ -100,8 +115,40 @@ margin-bottom: 0;
 
 }
 .marry-info{
-    max-width: 500px;
-    
+    max-width: 500px; 
 }
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about us section */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px ;
+}
+.section-title{
+    margin: 20px;
+}
+.section-discription{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    padding: 20px;
 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
 
+}
+.about-info{
+    text-align: center;
+}
+.info-discription{
+    font-weight: 900;
+}
