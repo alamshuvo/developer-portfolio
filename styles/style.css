@@ -37,6 +37,9 @@
     font-weight: 400;
 
 }
+img {
+    max-width: 100%;
+}
 /* header area css */
 header{
     background: #FFF8F3;
@@ -76,9 +79,9 @@ nav span{
  }
  /* header area css */
  .header{
-    background-image: url('/images/header_bg.png');
+    background-image: url('/images/header_bg.png'),url('/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right , top left;
  }
  .marry-details{
     display: flex;
@@ -130,7 +133,7 @@ main section{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px ;
+    /* margin: 130px ; */
 }
 .section-title{
     margin: 20px;
@@ -202,4 +205,37 @@ main section{
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+/* footer area start */
+/* .footer-column form{
+    display:inline-block;
+} */
+
+.fotter-area{
+    display: flex;
+    align-items: center;
+}
+.footer-column{
+    width: 50%;
+}
+.form-area{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-area input {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 02;
+    width: 400px;
+    padding: 15px 15px;
+}
+textarea {
+    width: 400px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.social-icon {
+    text-align: center;
 }
