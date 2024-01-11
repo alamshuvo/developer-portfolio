@@ -239,3 +239,71 @@ textarea {
 .social-icon {
     text-align: center;
 }
+
+/* responsive styles  */
+
+/* Mobile devices */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .nav-bar-area , .nav-bar-list ul , .marry-details {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-bar-area{
+       justify-content: center;
+       align-items: center;
+       padding: 5px;
+       margin: 0px auto;
+    }
+    .btn-primary{
+        background-color: #FD6E0A;
+        color: white;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 700;
+        border: 0;
+    }
+    .header{
+        width: 100%;
+        height: 80%;
+        background-color: #FFF;
+        background: none;
+    }
+    .marry-details{
+        padding: 5px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .marry-img{
+        width: 100%;
+        height: 50%;
+    }
+    .another{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    .marry-info{
+        width: 100%;
+    }
+    .marry-title{
+        font-size: 30px;
+    }
+    .marry-name{
+        font-size: 40px;
+    }
+    .marry-discription{
+        font-size: 20px;
+        margin: 20px;
+    }
+    .nav-bar-list a{
+        margin: 0px auto;
+    }
+    /* header area end */
+}
