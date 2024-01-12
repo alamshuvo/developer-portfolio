@@ -329,5 +329,11 @@ textarea {
         padding: 5px;
         margin: 10px;
     }
-    
+    /* what i do sectio end */
+    .resumee-container{
+        flex-direction: column;
+        background-color: bisque;
+    }
+    /* resumee section end */
+        
 }
