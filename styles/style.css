@@ -345,7 +345,7 @@ textarea {
         flex-direction: column;
     }    
     .footer-column{
-        width: 100vh;
+        width: 80%;
     }    
     .form-area{
         flex-direction: column;
@@ -353,11 +353,11 @@ textarea {
         gap: 20px;
     }
     .form-area input{
-        width: 100vh;
+        width: 100%;
         padding: 5px;
     }
     textarea{
-        width: 100vh;
+        width: 100%;
         border-radius: 5px;
         padding: 15px;
     }
