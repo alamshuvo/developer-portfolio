@@ -335,5 +335,10 @@ textarea {
         background-color: bisque;
     }
     /* resumee section end */
+    .download-cv{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
         
 }
