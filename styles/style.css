@@ -320,4 +320,14 @@ textarea {
     .about-info{
         margin-bottom: 20px;
     }
+    /* about info section end */
+    .skills-container{
+        flex-direction: column;
+        gap: 10px;background-color: antiquewhite;
+    }
+    #what-i-do{
+        padding: 5px;
+        margin: 10px;
+    }
+    
 }
