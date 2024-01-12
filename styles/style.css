@@ -306,4 +306,18 @@ textarea {
         margin: 0px auto;
     }
     /* header area end */
+    .about{
+        padding: 5px;
+        margin: 5px;
+        font-size: 15px;
+        background-color: burlywood;
+    }
+    .about-info-container{
+        flex-direction: column;
+        margin-bottom: 10px;
+
+    }
+    .about-info{
+        margin-bottom: 20px;
+    }
 }
